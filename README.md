@@ -1,16 +1,139 @@
-# React + Vite
+# 🚀 Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Employee Management System built with **React.js** and **Tailwind CSS**. This application allows an admin to assign tasks to employees, while employees can view and manage their assigned tasks. Data persistence is achieved using **Local Storage**.
 
-Currently, two official plugins are available:
+## 📌 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 👨‍💼 Admin
+- Secure Admin Login
+- Create and Assign Tasks
+- View All Employees
+- Track Task Status
+- Logout Functionality
 
-## React Compiler
+### 👨‍💻 Employee
+- Secure Employee Login
+- View Assigned Tasks
+- Accept New Tasks
+- Mark Tasks as Completed
+- Mark Tasks as Failed
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📊 Task Management
+- New Tasks
+- Active Tasks
+- Completed Tasks
+- Failed Tasks
+- Real-time Task Count Updates
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Tailwind CSS
+- Context API
+- JavaScript (ES6)
+- Local Storage
+- Vite
+
+## 📁 Project Structure
+
+```
+.
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── auth/
+│   │   │   └── Login.jsx
+│   │   ├── Dashboard/
+│   │   │   ├── AdminDashboard.jsx
+│   │   │   └── EmployeeDashboard.jsx
+│   │   ├── others/
+│   │   │   ├── AllTask.jsx
+│   │   │   ├── CreateTask.jsx
+│   │   │   ├── Header.jsx
+│   │   │   ├── ListAllTask.jsx
+│   │   │   └── TaskList.jsx
+│   │   └── TaskList/
+│   │       ├── AccepteTask.jsx
+│   │       ├── CompleteTask.jsx
+│   │       ├── FailTask.jsx
+│   │       └── NewTask.jsx
+│   ├── context/
+│   │   └── AuthProvider.jsx
+│   ├── utils/
+│   │   └── LocalStorage.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
+```
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/employee-management-system.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the project
+
+```bash
+npm run dev
+```
+
+Open your browser and visit
+
+```
+http://localhost:5173
+```
+
+## 🔑 Demo Credentials
+
+### Admin
+
+```
+Email: admin@me.com
+Password: 123
+```
+
+### Employee
+
+```
+Email: a@a.com
+Password: 123
+```
+
+## 📌 Future Improvements
+
+- Backend with Node.js & Express
+- MongoDB Database
+- JWT Authentication
+- Role-Based Authorization
+- REST API Integration
+- Task Editing & Deletion
+
+## 📸 Screenshots
+
+![Login page](/images/LoginPage.png)
+![Admin Dashboard](/images/AdminDashboard.png)
+![Employee Dashboard](/images/EmployeeDashboard.png)
+
+## 👨‍💻 Author
+
+**Ajit Jada**
+
+GitHub: https://github.com/ajitjada/employee-management-system
+
+---
