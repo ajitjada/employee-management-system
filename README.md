@@ -127,7 +127,9 @@ Password: 123
 ## 📸 Screenshots
 
 ![Login page](/images/LoginPage.png)
+
 ![Admin Dashboard](/images/AdminDashboard.png)
+
 ![Employee Dashboard](/images/EmployeeDashboard.png)
 
 ## 👨‍💻 Author
