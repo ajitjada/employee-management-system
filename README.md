@@ -63,6 +63,7 @@ A modern Employee Management System built with **React.js** and **Tailwind CSS**
 │   ├── utils/
 │   │   └── LocalStorage.jsx
 │   ├── App.css
+│   ├── images
 │   ├── App.jsx
 │   ├── index.css
 │   └── main.jsx
